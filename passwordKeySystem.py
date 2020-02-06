@@ -1,3 +1,4 @@
+
 correctPassword = 'a123456'
 
 inputValue = input('please enter the password: ')
@@ -24,8 +25,16 @@ else:
 
 			print('successful entry')
 
+			break
+
 		else:
 
 			authorizationAttempts = authorizationAttempts - 1
+
+			if authorizationAttempts == 0:
+
+				print('piss off')
+
+				break
 
 
